@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  word-spacing: 5px;
+  background-color: rgb(126, 137, 133);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid #000;
+  width: 80%;
+  background-color: rgb(232, 207, 98);
+}
+
+.header-section {
+  text-align: center;
+  line-height: 1.6;
+  background-color: #fc8b00;
+}
+
+.result-message {
+  margin-bottom: 60px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  height: 220px;
+  margin-bottom: 60px;
+}
+
+.reset-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset-button {
+  font-weight: bold;
+  font-size: small;
+  margin: 0 0 30px 0;
+}
+
+.user-section,
+.computer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-score,
+.comp-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+}
+
+.user-chosen-value,
+.comp-chosen-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: #fff;
+  background-color: #2b2b2b;
+  width: 280px;
+}
+
+.user-chosen-value > i,
+.comp-chosen-value > i {
+  color: #ff9500;
+  font-size: 100px;
+}
+
+.info-message {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.buttons {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+}
+
+.container,
+.user-section,
+.computer-section,
+button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  margin: 0 20px 30px 20px;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(41, 40, 40);
+  font-size: 15px;
+  color: #fff;
+  transition: all 0.3s ease;
+  color: #ff9500;
+}
+
+.buttons :hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.choice-paragraph {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}

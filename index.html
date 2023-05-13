@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Rock Paper Scissors Game</title>
+  </head>
+  <body>
+    <main class="box">
+      <div class="container">
+        <section class="header-section">
+          <h1>Rock Paper Scissors</h1>
+          <h2 class="result-message">Final Result</h2>
+        </section>
+
+        <section class="players">
+          <div class="user-section">
+            <div class="user-score">
+              Your - score :&nbsp;<span class="user-span-score">0</span>
+            </div>
+            <div class="user-chosen-value" id="user-value">
+              <i class="fa-solid fa-hand-back-fist fa-2xl"></i>
+            </div>
+          </div>
+          <div class="computer-section">
+            <div class="comp-score">
+              Computer - score :&nbsp;<span class="comp-span-score">0</span>
+            </div>
+            <div class="comp-chosen-value" id="comp-value">
+              <i class="fa-solid fa-hand-scissors fa-2xl"></i>
+            </div>
+          </div>
+        </section>
+        <section class="reset-section">
+          <button id="reset-button">RESET</button>
+        </section>
+
+        <section class="info-message">ROCK PAPER SCISSORS</section>
+
+        <section class="buttons">
+          <button
+            type="button"
+            class="fa-solid fa-hand-back-fist fa-2xl"
+          ></button>
+          <button type="button" class="fa-solid fa-hand fa-2xl"></button>
+          <button
+            type="button"
+            class="fa-solid fa-hand-scissors fa-2xl"
+          ></button>
+        </section>
+        <p class="choice-paragraph">Take your choice</p>
+      </div>
+    </main>
+  </body>
+</html>
